@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying App</title>
+    <link rel="icon" href="books.ico" type="image/x-icon">
+    <script>
+        document.getElementById("my-button").addEventListener("click", function() {
+            var targetUrl = "https://www.google.com"; window.open(targetUrl, "_blank");});
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('wp.jpg'); /* Replace with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-image: url('wp.jpg');
+            color: #fff;
+            padding: 1px 0;
+            text-align: center;
+        }
+        .container {
+            min-height: 100vh;
+            overflow: auto;
+            padding: 20px;
+        }
+	.background-image {
+    	    position: relative;
+    	    background-image: url('wp.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: #fff;
+            padding: 0px 0;
+}
+
+      .background-image h1 {
+    	    font-size: 36px;
+}
+      #my-image1 {
+            position: absolute;
+            top: 1200px;
+    	    left: 25px;
+}
+      #my-image2 {
+            position: absolute;
+            top: 1200px;
+    	    right: 25px;
+}
+      #my-image3 {
+            position: absolute;
+            top: 1700px;
+    	    left: 25px;
+}
+      #my-image4 {
+            position: absolute;
+            top: 1700px;
+    	    right: 25px;
+}
+      #my-image5 {
+            position: absolute;
+            top: 650px;
+    	    right: 1200px;
+}
+.custom-button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.custom-button:hover {
+    background-color: green;
+}
+.custombutton {
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+
+.custombutton:hover {
+    background-color: green;
+}
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: yellow;
+}
+p2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+p3 {
+    margin-top: 750px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+  <header>
+        <h2>Welcome to my website</h2>
+	<button onclick="window.location.href = 'aboutme.html';", button class='custom-button'>About me</button>
+        <button onclick="window.location.href = 'website.html';", button class='custombutton'>Home</button>
+    </header>
+    
+      <div class="background-image">
+        <p>You can download studying app from the link below...
+           <br></br>
+           <a href="studying_app_installer.exe"><h1>Download Studying App installer for windows</h1></a>
+	   </p>
+	<img src="p3.png" alt="Description of the image" width="600" height="400" class="image-style" id="my-image1">
+	<img src="p2.png" alt="Description of the image" width="600" height="400" class="image-style" id="my-image2">
+	<img src="p1.png" alt="Description of the image" width="600" height="400" class="image-style" id="my-image3">
+        <img src="p4.png" alt="Description of the image" width="600" height="400" class="image-style" id="my-image4">
+        <img src="p5.png" alt="Description of the image" width="300" height="250" class="image-style" id="my-image5">
+	<h2>Requirements for using this app:</h2>
+        <br></br>
+        <h3>1.Microsoft Edge Account<br></br>2.Internet<br></br>3.Nothing more!</h3>
+        <p2>How to setup our Ai Chatbot in the app<br></br>1. Create a microsoft edge account.<br></br>2. Add the extension cookie editor in mocrosoft edge.<br></br>3.Go to <a href="https://www.bing.com/"><h1>https://www.bing.com/</h1></a><br></br>4.On the cookie editor press export as json<br></br>5.Go to the studying app folder in your pc and open cookies.json in notepad<br></br>6.Delete the contents of the file and paste the cookies in this file. Now your chatbot is ready to use.</p2>
+         <p3>Here is a preview inside my app.</p3>
+    </div>
+</body>
+</html>
