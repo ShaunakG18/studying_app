@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying App</title>
+    <link rel="icon" href="books.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('wp.jpg'); /* Replace with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-image: url('wp.jpg');
+            color: #fff;
+            padding: 1px 0;
+            text-align: center;
+        }
+        .container {
+            min-height: 100vh;
+            overflow: auto;
+            padding: 20px;
+        }
+	.background-image {
+    	    position: relative;
+    	    background-image: url('wp.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: white;
+            padding: 52px 0;
+}
+
+      .background-image h1 {
+    	    font-size: 50px;
+}
+      #my-image1 {
+            position: absolute;
+            top: 250px;
+    	    left: 25px;
+}
+      #my-image2 {
+            position: absolute;
+            top: 250px;
+    	    right: 25px;
+}
+      #my-image3 {
+            position: absolute;
+            top: 700px;
+    	    left: 25px;
+}
+      #my-image4 {
+            position: absolute;
+            top: 700px;
+    	    right: 25px;
+}
+.custom-button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.custom-button:hover {
+    background-color: green;
+}
+.custombutton {
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 180px;
+}
+
+.custombutton:hover {
+    background-color: green;
+}
+
+    </style>
+    
+</head>
+<body>
+  <header>
+        <h2>Information about developer</h2>
+	<button onclick="window.location.href = 'aboutme.html';", button class='custom-button'>About me</button>
+        <button onclick="window.location.href = 'website.html';", button class='custombutton'>Home</button>
+    </header>
+    
+      <div class="background-image">
+        <p><h1>This app and the website is created by me Shaunak Ghose. Email at gshaunak18march@gmail.com for any problems regarding the app.</h1></p>
+	
+    </div>
+</body>
+</html>
