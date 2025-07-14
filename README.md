@@ -55,7 +55,7 @@ After opening:
 ![screenshot 2](p2.png)  
 ![screenshot 3](p3.png)
 ![screenshot 4](p4.png)  
-![screenshot 5](p5.png)  
+
 
 ---
 
